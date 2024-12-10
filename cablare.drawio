@@ -1,0 +1,55 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="25.0.0">
+  <diagram name="Page-1" id="_EQq-BnSyKRtmsm0yKH-">
+    <mxGraphModel dx="2077" dy="700" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="5hQZXZRJegZfnA_Z_4SS-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="5hQZXZRJegZfnA_Z_4SS-4" target="5hQZXZRJegZfnA_Z_4SS-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5hQZXZRJegZfnA_Z_4SS-4" value="ESP8266 Wifi Module" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="120" width="200" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="5hQZXZRJegZfnA_Z_4SS-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="5hQZXZRJegZfnA_Z_4SS-6" target="5hQZXZRJegZfnA_Z_4SS-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5hQZXZRJegZfnA_Z_4SS-6" value="Microphone" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="120" y="260" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="5hQZXZRJegZfnA_Z_4SS-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="5hQZXZRJegZfnA_Z_4SS-8" target="5hQZXZRJegZfnA_Z_4SS-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5hQZXZRJegZfnA_Z_4SS-8" value="Temperature and Humidity&lt;br&gt;Sensor" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="120" y="40" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="5hQZXZRJegZfnA_Z_4SS-13" value="Temperature and Humidity&lt;br&gt;Sensor" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="720" y="40" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="5hQZXZRJegZfnA_Z_4SS-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.587;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="5hQZXZRJegZfnA_Z_4SS-13" target="5hQZXZRJegZfnA_Z_4SS-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5hQZXZRJegZfnA_Z_4SS-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="5hQZXZRJegZfnA_Z_4SS-16" target="5hQZXZRJegZfnA_Z_4SS-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5hQZXZRJegZfnA_Z_4SS-16" value="LED" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="140" y="155" width="40" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="5hQZXZRJegZfnA_Z_4SS-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="5hQZXZRJegZfnA_Z_4SS-18" target="5hQZXZRJegZfnA_Z_4SS-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5hQZXZRJegZfnA_Z_4SS-18" value="LED" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="740" y="155" width="40" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="5hQZXZRJegZfnA_Z_4SS-21" value="PostgreSQL&amp;nbsp;&lt;br&gt;Database" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/databases/Azure_Database_PostgreSQL_Server.svg;" vertex="1" parent="1">
+          <mxGeometry x="706" y="417" width="108" height="144" as="geometry" />
+        </mxCell>
+        <mxCell id="5hQZXZRJegZfnA_Z_4SS-22" value="Python Server" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/app_services/App_Service_Plans.svg;" vertex="1" parent="1">
+          <mxGeometry x="351" y="420" width="138" height="138" as="geometry" />
+        </mxCell>
+        <mxCell id="5hQZXZRJegZfnA_Z_4SS-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.97;entryY=0.504;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="5hQZXZRJegZfnA_Z_4SS-21" target="5hQZXZRJegZfnA_Z_4SS-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
